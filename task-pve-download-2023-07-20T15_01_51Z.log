@@ -1,0 +1,4 @@
+downloading http://download.proxmox.com/images/system/ubuntu-22.04-standard_22.04-1_amd64.tar.zst to /var/lib/vz/template/cache/ubuntu-22.04-standard_22.04-1_amd64.tar.zst
+--2023-07-20 22:01:51--  http://download.proxmox.com/images/system/ubuntu-22.04-standard_22.04-1_amd64.tar.zst
+Resolving download.proxmox.com (download.proxmox.com)... failed: Temporary failure in name resolution.
+TASK ERROR: download failed: wget: unable to resolve host address 'download.proxmox.com'
