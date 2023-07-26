@@ -1,0 +1,70 @@
+﻿2021-11-27 13:21:20, Info                  DISM   PID=9252 TID=11096 Scratch directory set to 'C:\WINDOWS\TEMP\'. - CDISMManager::put_ScratchDir
+2021-11-27 13:21:20, Info                  DISM   PID=9252 TID=11096 DismCore.dll version: 10.0.22000.41 - CDISMManager::FinalConstruct
+2021-11-27 13:21:20, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:20, Info                  DISM   PID=9252 TID=11096 Successfully loaded the ImageSession at "C:\WINDOWS\system32\Dism" - CDISMManager::LoadLocalImageSession
+2021-11-27 13:21:21, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:21, Info                  DISM   DISM Provider Store: PID=9252 TID=11096 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2021-11-27 13:21:21, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:21, Info                  DISM   DISM Manager: PID=9252 TID=11096 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: 
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: 
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.22000, Running architecture=amd64, Number of processors=2
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.22000.1
+2021-11-27 13:21:21, Info                  DISM   DISM.EXE: Executing command line: DISM.exe  /Online /Add-ProvisionedAppxPackage /PackagePath:92fd0ac0607b40e6bf7e9dcb09dfe742.appx /DependencyPackagePath:Microsoft.VCLibs.140.00.UWPDesktop_14.0.29231.0_x64__8wekyb3d8bbwe.appx /LogPath:\dism.log /LicensePath:92fd0ac0607b40e6bf7e9dcb09dfe742_License1.xml /Region="all"
+2021-11-27 13:21:21, Info                  DISM   DISM Manager: PID=9252 TID=11096 physical location path: C:\ - CDISMManager::CreateImageSession
+2021-11-27 13:21:21, Info                  DISM   DISM Manager: PID=9252 TID=11096 Event name for current DISM session is Global\{787DFC51-F059-4386-949A-22B863FDE256} - CDISMManager::CheckSessionAndLock
+2021-11-27 13:21:21, Info                  DISM   DISM Manager: PID=9252 TID=11096 Create session event 0x1fc for current DISM session and event name is Global\{787DFC51-F059-4386-949A-22B863FDE256}  - CDISMManager::CheckSessionAndLock
+2021-11-27 13:21:21, Info                  DISM   DISM Manager: PID=9252 TID=11096 Copying DISM from "C:\WINDOWS\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2021-11-27 13:21:28, Info                  DISM   DISM Manager: PID=9252 TID=11096 Successfully loaded the ImageSession at "C:\WINDOWS\TEMP\57E44097-B489-4CE6-A015-27652FE6EE74" - CDISMManager::LoadRemoteImageSession
+2021-11-27 13:21:28, Info                  DISM   DISM Image Session: PID=4696 TID=7772 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2021-11-27 13:21:28, Info                  DISM   DISM OS Provider: PID=4696 TID=7772 Defaulting SystemPath to C:\ - CDISMOSServiceManager::Final_OnConnect
+2021-11-27 13:21:28, Info                  DISM   DISM OS Provider: PID=4696 TID=7772 Defaulting Windows folder to C:\Windows - CDISMOSServiceManager::Final_OnConnect
+2021-11-27 13:21:29, Info                  DISM   DISM Provider Store: PID=4696 TID=7772 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2021-11-27 13:21:29, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:29, Info                  DISM   DISM Provider Store: PID=4696 TID=7772 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2021-11-27 13:21:29, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:29, Info                  DISM   Initialized Panther logging at \dism.log
+2021-11-27 13:21:29, Info                  DISM   DISM Manager: PID=9252 TID=11096 Image session successfully loaded from the temporary location: C:\WINDOWS\TEMP\57E44097-B489-4CE6-A015-27652FE6EE74 - CDISMManager::CreateImageSession
+2021-11-27 13:21:29, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.22000.318, Image architecture=amd64
+2021-11-27 13:21:29, Info                  DISM   DISM.EXE: Image session version: 10.0.22000.1
+2021-11-27 13:21:30, Info                  DISM   DISM Transmog Provider: PID=4696 TID=7772 Current image session is [ONLINE] - CTransmogManager::GetMode
+2021-11-27 13:21:30, Info                  DISM   DISM Transmog Provider: PID=4696 TID=7772 Audit Mode: [No] - CTransmogManager::Initialize
+2021-11-27 13:21:30, Info                  DISM   DISM Transmog Provider: PID=4696 TID=7772 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2021-11-27 13:21:30, Info                  DISM   DISM Transmog Provider: PID=4696 TID=7772 Product Type: [WinNT] - CTransmogManager::Initialize
+2021-11-27 13:21:30, Info                  DISM   DISM Transmog Provider: PID=4696 TID=7772 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2021-11-27 13:21:30, Info                  CSI    00000001 Shim considered [l:125]'\??\C:\WINDOWS\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2021-11-27 13:21:30, Info                  CSI    00000002 Shim considered [l:122]'\??\C:\WINDOWS\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_SUCCESS
+2021-11-27 13:21:30, Info                  DISM   DISM Driver Manager: PID=4696 TID=7772 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2021-11-27 13:21:30, Info                  CSI    00000001 Shim considered [l:125]'\??\C:\WINDOWS\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2021-11-27 13:21:30, Info                  CSI    00000002 Shim considered [l:122]'\??\C:\WINDOWS\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_SUCCESS
+2021-11-27 13:21:30, Info                  DISM   DISM OS Provider: PID=4696 TID=7772 Determined System directory to be C:\Windows\System32 - CDISMOSServiceManager::get_SystemDirectory
+2021-11-27 13:21:30, Info                  DISM   DISM Package Manager: PID=4696 TID=7772 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2021-11-27 13:21:30, Info                  CSI    00000001 Shim considered [l:125]'\??\C:\WINDOWS\Servicing\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_OBJECT_PATH_NOT_FOUND
+2021-11-27 13:21:30, Info                  CSI    00000002 Shim considered [l:122]'\??\C:\WINDOWS\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22000.280_none_0483b4854ca89ef9\wcp.dll' : got STATUS_SUCCESS
+2021-11-27 13:21:30, Info                  DISM   DISM Package Manager: PID=4696 TID=7772 CBS is being initialized for online use. More information about CBS actions can be located at: %windir%\logs\cbs\cbs.log - CDISMPackageManager::Initialize
+2021-11-27 13:21:30, Info                  DISM   DISM Package Manager: PID=4696 TID=7772 Loaded servicing stack for online use only. - CDISMPackageManager::CreateCbsSession
+2021-11-27 13:21:30, Info                  DISM   DISM Appx Provider: PID=4696 TID=7772 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2021-11-27 13:21:30, Info                  DISM   DISM Appx Provider: PID=4696 TID=7772 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2021-11-27 13:21:30, Info                  DISM   DISM Appx Provider: PID=4696 TID=7772 Converting IDismStringCollectionVector. - CAppxManager::ConvertIDismStringCollectionToVector
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp(1646)\AppxProvider.dll!00007FF9D27B16C1: (caller: 00007FF9D27B0E7A) LogHr(1) tid(1e5c) 8007029C An assertion failure has occurred.
+ - CAppxManager::ResultLoggingCallback
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 onecore\admin\appmodel\utilities\provisionhelper\msixpackageadapter.cpp(1646)\AppxProvider.dll!00007FF9D27B16C1: (caller: 00007FF9D27B0E7A) LogHr(2) tid(1e5c) 8007029C An assertion failure has occurred.
+    Msg:[No main package dependencies for AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.20.50016.0_x64__0a9344xs7nr4m, this is a main package and not an optional package.] 
+ - CAppxManager::ResultLoggingCallback
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 onecore\admin\appmodel\utilities\provisionhelper\msixprovisioningrequest.cpp(878)\AppxProvider.dll!00007FF9D27A76BC: (caller: 00007FF9D27A70AF) ReturnHr(1) tid(1e5c) C1570118     Msg:[Failed while adding package AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.20.50016.0_x64__0a9344xs7nr4m since an equal or higher version of the package, AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.20.50017.0_x64__0a9344xs7nr4m, already exists] 
+ - CAppxManager::ResultLoggingCallback
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 onecore\admin\appmodel\utilities\provisionhelper\msixprovisioningrequest.cpp(671)\AppxProvider.dll!00007FF9D27A714A: (caller: 00007FF9D27AB0F3) ReturnHr(2) tid(1e5c) C1570118     Msg:[Failed to remove existing package version for 'AdvancedMicroDevicesInc-2.AMDRadeonSoftware_10.20.50016.0_x64__0a9344xs7nr4m'.] 
+ - CAppxManager::ResultLoggingCallback
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 onecore\admin\appmodel\utilities\provisionhelper\msixprovisioningmanager.cpp(920)\AppxProvider.dll!00007FF9D27AB126: (caller: 00007FF9D27798E4) ReturnHr(3) tid(1e5c) C1570118     Msg:[Failed to add package '92fd0ac0607b40e6bf7e9dcb09dfe742.appx' to adapter set for processing.] 
+ - CAppxManager::ResultLoggingCallback
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 Failed to initialize package set - CAppxManager::AddAllUserAppxPackageWithOptionalPackagesAndRegionAndStubPackageOption(hr:0x800700b7)
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 Failed to add Appx package - CAppxManager::ProcessCommandAddAllUserAppxPackage(hr:0xc1570118)
+2021-11-27 13:21:32, Error                 DISM   DISM Appx Provider: PID=4696 TID=7772 Failed processing command to add Appx package - CAppxManager::ExecuteCmdLine(hr:0xc1570118)
+2021-11-27 13:21:32, Error                 DISM   DISM.EXE: AppxManager processed the command line but failed. HRESULT=C1570118
+2021-11-27 13:21:32, Info                  DISM   DISM Package Manager: PID=4696 TID=3088 Finalizing CBS core. - CDISMPackageManager::Finalize
+2021-11-27 13:21:32, Info                  DISM   DISM Manager: PID=9252 TID=11096 Closing session event handle 0x1fc - CDISMManager::CleanupImageSessionEntry
+2021-11-27 13:21:33, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2021-11-27 13:21:33, Info                  DISM   DISM.EXE: 
+2021-11-27 13:21:33, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2021-11-27 13:21:33, Info                  DISM   DISM.EXE: 
